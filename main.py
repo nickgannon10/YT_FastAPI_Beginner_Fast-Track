@@ -55,6 +55,9 @@ def get_posts():
         logging.error('An error occurred while getting posts: %s', str(e))
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
 
+@app.get("/query/")
+    
+
 @app.get("/products/")
 def get_products():
     logging.debug('Starting to get products.')

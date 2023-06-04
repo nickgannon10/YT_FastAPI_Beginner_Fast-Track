@@ -1,5 +1,3 @@
-from typing import Optional
-
 from sqlalchemy import Boolean, Column, DateTime, ForeignKey, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
@@ -31,10 +29,10 @@ class Author(Base):
 class Post(Base):
     __tablename__ = "post"
 
-    id = Column(Integer, primary_key=True, index=True)
-    title = Column(String, index=True)
-    content = Column(String)
-    published = Column(Boolean, default=True)
+    id = Column(Integer, primary_key=True, index=True) # nullable = false
+    title = Column(String, index=True) # nullable = false
+    content = Column(String) # nullable = false
+    published = Column(Boolean, default=True) # nullable = false
     rating = Column(Integer)
 
 class Product(Base):
