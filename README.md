@@ -1,66 +1,10 @@
 ## Backend stuff
 
-# Preferred File Structure
-/myapp
-    /app
-        __init__.py
-        main.py
-        /api
-            __init__.py
-            /endpoints
-                __init__.py
-                books.py
-                authors.py
-                posts.py
-                products.py
-        /models
-            __init__.py
-            books.py
-            authors.py
-            posts.py
-            products.py
-        /schemas
-            __init__.py
-            books.py
-            authors.py
-            posts.py
-            products.py
-    .env
-    requirements.txt
+- Just shred through the tutorial for 8 hours tomorrow. On the clock. 
+    - Why
+        1. This will be the backend of your medical PM tool 
+        2. Gaining a Deeper Understanding of Database Structures would be helpful for a PhD
+        3. Future Jobs will want you to have understanding of codebases
+        4. Your current job is literally just cloud stuff
 
-Add to requirements.txt
-    aiofiles==0.5.0
-    aniso8601==7.0.0
-    async-exit-stack==1.0.1
-    async-generator==1.10
-    autopep8==1.5.7
-    bcrypt==3.2.0
-    cffi==1.14.6
-    charset-normalizer==2.0.4
-    cryptography==3.4.8
-    dnspython==2.1.0
-    ecdsa==0.17.0
-    email-validator==1.1.3
-    graphene==2.1.9
-    graphql-core==2.3.2
-    graphql-relay==2.0.1
-    httptools==0.3.0
-    idna==3.2
-    itsdangerous==1.1.0
-    Jinja2==2.11.3
-    orjson==3.6.1
-    passlib==1.7.4
-    promise==2.3
-    pyasn1==0.4.8
-    pycodestyle==2.7.0
-    pycparser==2.20
-    python-jose==3.3.0
-    python-multipart==0.0.5
-    PyYAML==5.4.1
-    requests==2.26.0
-    rsa==4.7.2
-    Rx==1.6.1
-    ujson==4.0.2
-    urllib3==1.26.6
-    watchgod==0.7
-    websockets==8.1
+
